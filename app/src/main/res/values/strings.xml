@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Wisata Nusantara</string>
+    <string name="category_agrowisata">Agrowisata</string>
+    <string name="welcome_word">Welcome to\nWisata Nusantara</string>
+    <string name="category_alam">Alam</string>
+    <string name="category_budaya">Budaya</string>
+    <string name="category_edukasi">Edukasi</string>
+    <string name="category_kawasan_wisata_terpadu">Kawasan Wisata Terpadu</string>
+    <string name="category_kolam_renang">Kolam Renang</string>
+    <string name="category_lain_lain">Lain-lain</string>
+    <string name="category_minat_khusus">Minat Khusus</string>
+    <string name="category_religi">Religi</string>
+    <string name="category_taman">Taman</string>
 </resources>

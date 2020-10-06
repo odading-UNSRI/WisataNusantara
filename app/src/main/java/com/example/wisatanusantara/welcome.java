@@ -23,7 +23,7 @@ public class welcome extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finishAffinity();
-                startActivity(new Intent(getApplicationContext(), welcome.class));
+                startActivity(new Intent(getApplicationContext(), main.class));
             }
         });
 
