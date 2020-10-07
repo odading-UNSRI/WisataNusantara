@@ -92,6 +92,7 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
 
             //Initialize the views
             mTitleText = itemView.findViewById(R.id.title);
+            mInfoText = itemView.findViewById(R.id.wisataDetailTitle);
             mWisataImage = itemView.findViewById(R.id.wisataImage);
 
             // Set the OnClickListener to the entire view.
@@ -101,6 +102,7 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
         void bindTo(Wisata currentWisata) {
             // Populate the textviews with data.
             mTitleText.setText(currentWisata.getTitle());
+            mInfoText.setText(currentWisata.getInfo());
             Glide.with(mContext).load(currentWisata.getImageResource()).into(mWisataImage);
         }
 
