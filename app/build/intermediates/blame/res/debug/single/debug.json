@@ -8,6 +8,10 @@
         "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable_pb_edukasi.png.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/drawable/pb_edukasi.png"
+    },
+    {
         "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
@@ -44,8 +48,16 @@
         "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable_pb_agrowisata.png.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/drawable/pb_agrowisata.png"
+    },
+    {
         "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable_pb_taman.png.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/drawable/pb_taman.png"
     },
     {
         "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
@@ -60,6 +72,10 @@
         "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable_pb_alam.png.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/drawable/pb_alam.png"
+    },
+    {
         "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
@@ -68,12 +84,28 @@
         "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
     },
     {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable_pb_minat.png.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/drawable/pb_minat.png"
+    },
+    {
         "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/layout_activity_splash_screen.xml.flat",
         "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/layout/activity_splash_screen.xml"
     },
     {
         "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable_pb_budaya.png.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/drawable/pb_budaya.png"
+    },
+    {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable_pb_lain_lain.png.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/drawable/pb_lain_lain.png"
+    },
+    {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
@@ -86,6 +118,22 @@
     {
         "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable_pb_kwt.png.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/drawable/pb_kwt.png"
+    },
+    {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable_pb_kolam.png.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/drawable/pb_kolam.png"
+    },
+    {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/layout-v21_activity_main.xml.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/layout-v21/activity_main.xml"
+    },
+    {
+        "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/drawable_pb_religi.png.flat",
+        "source": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/src/main/res/drawable/pb_religi.png"
     },
     {
         "merged": "/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/res/merged/debug/layout_activity_welcome.xml.flat",

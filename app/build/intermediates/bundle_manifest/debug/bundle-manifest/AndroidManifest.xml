@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="28" />
 
     <application
         android:allowBackup="true"
@@ -26,6 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.wisatanusantara.welcome" />
+        <activity android:name="com.example.wisatanusantara.main" />
     </application>
 
 </manifest>
