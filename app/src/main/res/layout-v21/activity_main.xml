@@ -61,7 +61,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/pb_agrowisata"
-                    android:scaleType="fitXY"/>
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/todo" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
@@ -86,8 +87,9 @@
                     android:id="@+id/iv_alam"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pb_alam"
-                    android:scaleType="fitXY"/>
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pb_alam" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
@@ -112,8 +114,9 @@
                     android:id="@+id/iv_budaya"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pb_budaya"
-                    android:scaleType="fitXY"/>
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pb_budaya" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
@@ -138,8 +141,9 @@
                     android:id="@+id/iv_edukasi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pb_edukasi"
-                    android:scaleType="fitXY"/>
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pb_edukasi" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
@@ -164,8 +168,9 @@
                     android:id="@+id/iv_kawasan_wisata_terpadu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pb_kwt"
-                    android:scaleType="fitXY"/>
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pb_kwt" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
@@ -190,8 +195,9 @@
                     android:id="@+id/iv_kolam_renang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pb_kolam"
-                    android:scaleType="fitXY"/>
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pb_kolam" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
 
@@ -217,8 +223,9 @@
                     android:id="@+id/iv_lain_lain"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pb_lain_lain"
-                    android:scaleType="fitXY"/>
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pb_lain_lain" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
@@ -243,8 +250,9 @@
                     android:id="@+id/iv_minat_khusus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pb_minat"
-                    android:scaleType="fitXY"/>
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pb_minat" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
@@ -269,8 +277,9 @@
                     android:id="@+id/iv_religi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pb_religi"
-                    android:scaleType="fitXY"/>
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pb_religi" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
@@ -295,8 +304,9 @@
                     android:id="@+id/taman"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pb_taman"
-                    android:scaleType="fitXY"/>
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pb_taman" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
     </GridLayout>
