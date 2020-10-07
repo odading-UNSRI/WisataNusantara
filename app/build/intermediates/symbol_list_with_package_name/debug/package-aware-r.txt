@@ -25,6 +25,9 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array sports_images
+array wisata_info
+array wisata_titles
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1134,6 +1137,13 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable img_cycling
+drawable img_golf
+drawable img_running
+drawable img_soccer
+drawable img_swimming
+drawable img_tabletennis
+drawable img_tennis
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1351,6 +1361,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id reverseSawtooth
 id right
 id right_icon
@@ -1443,6 +1454,8 @@ id useLogo
 id view_offset_helper
 id visible
 id welcome_word
+id wisataDetailTitle
+id wisataImage
 id withText
 id wrap
 id wrap_content
@@ -1454,6 +1467,7 @@ integer cancel_button_image_alpha
 integer config_tooltipAnimTime
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
+integer grid_column_count
 integer hide_password_duration
 integer mtrl_btn_anim_delay_ms
 integer mtrl_btn_anim_duration_ms
@@ -1496,6 +1510,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_splash_screen
 layout activity_welcome
+layout daftar_wisata
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1510,6 +1525,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout list_item_wisata
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1582,6 +1598,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string mtrl_chip_close_icon_content_description
+string news_placeholder
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -1589,6 +1606,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_placeholder
 string welcome_word
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -2086,6 +2104,8 @@ style Widget_MaterialComponents_TextInputLayout_OutlinedBox
 style Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense
 style Widget_MaterialComponents_Toolbar
 style Widget_Support_CoordinatorLayout
+style wisataDetailText
+style wisataTitle
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
