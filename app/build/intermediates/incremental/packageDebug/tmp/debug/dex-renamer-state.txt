@@ -1,4 +1,4 @@
-#Wed Oct 07 14:00:35 WIB 2020
-base.0=/Users/rahmadestriani/Documents/GitHub/WisataNusantara/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Wed Oct 07 22:10:22 ICT 2020
+base.0=D\:\\ABC\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
