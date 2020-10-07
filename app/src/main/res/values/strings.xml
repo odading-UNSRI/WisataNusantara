@@ -13,7 +13,7 @@
     <string name="category_taman">Taman</string>
     <string name="title_placeholder">TITLE</string>
     <string name="news_placeholder">DESC</string>
-    <string name="todo">TODO</string>
+    <string name="todo">TO DO</string>
     <string-array name="wisata_titles">
         <item>Giri Tirta Kahuripan</item>
         <item>Kampung Sadang</item>
