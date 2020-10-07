@@ -1132,18 +1132,14 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable giri_tirta_kahuripan
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable img_cycling
-drawable img_golf
-drawable img_running
-drawable img_soccer
-drawable img_swimming
-drawable img_tabletennis
-drawable img_tennis
+drawable kampung_kahuripan
+drawable kampung_sadang
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1169,6 +1165,7 @@ drawable pb_lain_lain
 drawable pb_minat
 drawable pb_religi
 drawable pb_taman
+drawable saung_manglid
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable welcome
@@ -1607,6 +1604,7 @@ string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
 string title_placeholder
+string todo
 string welcome_word
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
