@@ -7,4 +7,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="wisataDetailText" parent="TextAppearance.AppCompat.Subhead" />
+
+    <style name="wisataTitle" parent="TextAppearance.AppCompat.Headline" />
+
 </resources>
