@@ -19,7 +19,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.wisatanusantara.agrowisata" />
         <activity android:name="com.example.wisatanusantara.splash_screen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +28,11 @@
         </activity>
         <activity android:name="com.example.wisatanusantara.welcome" />
         <activity android:name="com.example.wisatanusantara.main" />
+        <activity android:name="com.example.wisatanusantara.Wisata" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

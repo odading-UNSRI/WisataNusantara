@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Wisata Nusantara</string>
     <string name="category_agrowisata">Agrowisata</string>
-    <string name="welcome_word">Welcome to\nWisata Nusantara</string>
+    <string name="welcome_word">Wisata\nNusantara</string>
     <string name="category_alam">Alam</string>
     <string name="category_budaya">Budaya</string>
     <string name="category_edukasi">Edukasi</string>

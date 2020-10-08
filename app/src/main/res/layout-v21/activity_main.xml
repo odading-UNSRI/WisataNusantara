@@ -15,18 +15,19 @@
         android:layout_height="0dp">
 
         <TextView
+            android:id="@+id/welcome_word"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_centerInParent="true"
             android:layout_marginStart="32dp"
-            android:id="@+id/welcome_word"
-            android:text="@string/welcome_word"
-            android:textSize="30sp"
-            android:textStyle="bold"
+            android:layout_marginTop="32dp"
             android:gravity="center"
-            android:lineSpacingExtra="15dp"
-            android:textColor="@android:color/black"
-            android:layout_centerInParent="true"/>
+            android:lineSpacingExtra="10dp"
+            android:text="@string/welcome_word"
+            android:textColor="@android:color/white"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/berkshire_swash" />
     </RelativeLayout>
 
     <GridLayout

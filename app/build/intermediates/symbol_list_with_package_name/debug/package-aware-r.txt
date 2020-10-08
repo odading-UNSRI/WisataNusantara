@@ -25,6 +25,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 array sports_images
 array wisata_info
 array wisata_titles
@@ -1127,6 +1131,7 @@ drawable aplikasi
 drawable avd_hide_password
 drawable avd_show_password
 drawable background1
+drawable background_splash
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1170,6 +1175,7 @@ drawable saung_manglid
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable welcome
+font berkshire_swash
 id ALT
 id CTRL
 id FUNCTION
@@ -1355,6 +1361,7 @@ id percent
 id pin
 id position
 id postLayout
+id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
@@ -1426,6 +1433,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id text_input_password_toggle
+id text_view
 id textinput_counter
 id textinput_error
 id textinput_helper_text
