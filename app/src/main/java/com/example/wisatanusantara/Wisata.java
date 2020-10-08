@@ -1,6 +1,6 @@
 package com.example.wisatanusantara;
 
-public class Wisata {
+class Wisata {
     private String title;
     private String info;
     private final int imageResource;
