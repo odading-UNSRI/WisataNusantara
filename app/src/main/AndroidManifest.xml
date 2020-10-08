@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".welcome" />
-        <activity android:name=".main"></activity>
+        <activity android:name=".main" />
+        <activity android:name=".Wisata"/>
     </application>
 
 </manifest>
