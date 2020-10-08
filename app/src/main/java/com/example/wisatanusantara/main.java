@@ -36,18 +36,25 @@ public class main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+
+        cvAgrowisata.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), Wisata.class));
+            }
+        });
     }
 
     private void initView() {
-        cvAgrowisata = (CardView) findViewById(R.id.cvAgrowisata);
-        cvAlam = (CardView) findViewById(R.id.cvAlam);
-        cvBudaya = (CardView) findViewById(R.id.cvBudaya);
-        cvEdukasi = (CardView) findViewById(R.id.cvEdukasi);
-        cvKawasanWisataTerpadu = (CardView) findViewById(R.id.cvKawasanWisataTerpadu);
-        cvKolamRenang = (CardView) findViewById(R.id.cvKolamRenang);
-        cvLainLain = (CardView) findViewById(R.id.cvLainLain);
-        cvMinatKhusus = (CardView) findViewById(R.id.cvMinatKhusus);
-        cvReligi = (CardView) findViewById(R.id.cvReligi);
-        cvTaman = (CardView) findViewById(R.id.cvTaman);
+        cvAgrowisata = (CardView) findViewById(R.id.cv_Agrowisata);
+        cvAlam = (CardView) findViewById(R.id.cv_Alam);
+        cvBudaya = (CardView) findViewById(R.id.cv_Budaya);
+        cvEdukasi = (CardView) findViewById(R.id.cv_Edukasi);
+        cvKawasanWisataTerpadu = (CardView) findViewById(R.id.cv_KawasanWisataTerpadu);
+        cvKolamRenang = (CardView) findViewById(R.id.cv_KolamRenang);
+        cvLainLain = (CardView) findViewById(R.id.cv_LainLain);
+        cvMinatKhusus = (CardView) findViewById(R.id.cv_MinatKhusus);
+        cvReligi = (CardView) findViewById(R.id.cv_Religi);
+        cvTaman = (CardView) findViewById(R.id.cv_Taman);
     }
 }

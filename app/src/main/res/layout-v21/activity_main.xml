@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="10"
+    android:background="@drawable/background1"
     tools:context=".main">
 
     <RelativeLayout
@@ -39,7 +40,7 @@
         android:padding="14dp">
 
         <android.support.v7.widget.CardView
-            android:id="@+id/cvAgrowisata"
+            android:id="@+id/cv_Agrowisata"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -66,7 +67,7 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
-            android:id="@+id/cvAlam"
+            android:id="@+id/cv_Alam"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -93,7 +94,7 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
-            android:id="@+id/cvBudaya"
+            android:id="@+id/cv_Budaya"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -120,7 +121,7 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
-            android:id="@+id/cvEdukasi"
+            android:id="@+id/cv_Edukasi"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -147,7 +148,7 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
-            android:id="@+id/cvKawasanWisataTerpadu"
+            android:id="@+id/cv_KawasanWisataTerpadu"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -174,7 +175,7 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
-            android:id="@+id/cvKolamRenang"
+            android:id="@+id/cv_KolamRenang"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -202,7 +203,7 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:id="@+id/cvLainLain"
+            android:id="@+id/cv_LainLain"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -229,7 +230,7 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
-            android:id="@+id/cvMinatKhusus"
+            android:id="@+id/cv_MinatKhusus"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -256,7 +257,7 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
-            android:id="@+id/cvReligi"
+            android:id="@+id/cv_Religi"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -283,7 +284,7 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
-            android:id="@+id/cvTaman"
+            android:id="@+id/cv_Taman"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -301,7 +302,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/taman"
+                    android:id="@+id/iv_taman"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/todo"
