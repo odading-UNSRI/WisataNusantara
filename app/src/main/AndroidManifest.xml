@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".welcome" />
         <activity android:name=".main" />
-        <activity android:name=".agrowisata" />
     </application>
 
 
