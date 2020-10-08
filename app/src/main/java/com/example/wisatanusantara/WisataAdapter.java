@@ -2,7 +2,7 @@ package com.example.wisatanusantara;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,7 +22,7 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
      * Constructor that passes in the sports data and the context.
      *
      * @param wisataData ArrayList containing the sports data.
-     * @param context    Context of the application.
+     * @param context Context of the application.
      */
     WisataAdapter(Context context, ArrayList<Wisata> wisataData) {
         this.mWisataData = wisataData;
@@ -33,13 +33,13 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
     /**
      * Required method for creating the viewholder objects.
      *
-     * @param parent   The ViewGroup into which the new View will be added
-     *                 after it is bound to an adapter position.
+     * @param parent The ViewGroup into which the new View will be added
+     *               after it is bound to an adapter position.
      * @param viewType The view type of the new View.
      * @return The newly created ViewHolder.
      */
     @Override
-    public WisataAdapter.ViewHolder onCreateViewHolder(
+    public ViewHolder onCreateViewHolder(
             ViewGroup parent, int viewType) {
         return new ViewHolder(LayoutInflater.from(mContext).
                 inflate(R.layout.list_item_wisata, parent, false));
@@ -48,11 +48,11 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
     /**
      * Required method that binds the data to the viewholder.
      *
-     * @param holder   The viewholder into which the data should be put.
+     * @param holder The viewholder into which the data should be put.
      * @param position The adapter position.
      */
     @Override
-    public void onBindViewHolder(WisataAdapter.ViewHolder holder,
+    public void onBindViewHolder(ViewHolder holder,
                                  int position) {
         // Get current sport.
         Wisata currentWisata = mWisataData.get(position);
@@ -99,22 +99,24 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
             itemView.setOnClickListener(this);
         }
 
-        void bindTo(Wisata currentWisata) {
+        void bindTo(Wisata currentWisata){
             // Populate the textviews with data.
             mTitleText.setText(currentWisata.getTitle());
             mInfoText.setText(currentWisata.getInfo());
             Glide.with(mContext).load(currentWisata.getImageResource()).into(mWisataImage);
+
         }
 
         @Override
-        public void onClick(View view) {
-            Wisata currentSport = mWisataData.get(getAdapterPosition());
+        public void onClick(View v) {
+            Wisata currentWisata = mWisataData.get(getAdapterPosition());
 
             Intent detailIntent = new Intent(mContext, DetailWisata.class);
-            detailIntent.putExtra("title", currentSport.getTitle());
+            detailIntent.putExtra("title", currentWisata.getTitle());
             detailIntent.putExtra("image_resource",
-                    currentSport.getImageResource());
+                    currentWisata.getImageResource());
             mContext.startActivity(detailIntent);
         }
     }
 }
+
