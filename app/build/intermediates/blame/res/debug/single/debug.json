@@ -28,10 +28,6 @@
         "source": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\build\\intermediates\\res\\merged\\debug\\font_berkshire_swash.xml.flat",
-        "source": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\src\\main\\res\\font\\berkshire_swash.xml"
-    },
-    {
         "merged": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
@@ -80,6 +76,10 @@
         "source": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\src\\main\\res\\drawable\\pb_religi.png"
     },
     {
+        "merged": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_welcome.png.flat",
+        "source": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\src\\main\\res\\drawable\\bg_welcome.png"
+    },
+    {
         "merged": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kampung_sadang.png.flat",
         "source": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\src\\main\\res\\drawable\\kampung_sadang.png"
     },
@@ -90,10 +90,6 @@
     {
         "merged": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kampung_kahuripan.jpg.flat",
         "source": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\src\\main\\res\\drawable\\kampung_kahuripan.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_activity_main.xml.flat",
-        "source": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\src\\main\\res\\layout-v21\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Novita\\AndroidStudioProjects\\WisataNusantara\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",

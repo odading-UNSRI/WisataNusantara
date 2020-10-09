@@ -7,15 +7,15 @@
 7    <uses-sdk
 8        android:minSdkVersion="15"
 8-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="28" />
+9        android:targetSdkVersion="30" />
 9-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:5:5-26:19
+11-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:5:5-22:19
 12        android:allowBackup="true"
 12-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-13-->[com.android.support:support-compat:28.0.0] C:\Users\Novita\AndroidStudioProjects\Helloworldd\.gradle\caches\transforms-2\files-2.1\00567bd0de14b33d1bf8a440dc72bff8\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.0] C:\Users\Novita\AndroidStudioProjects\Helloworldd\.gradle\caches\transforms-2\files-2.1\6d11613c3b6a00a9ea456b5609ec43f7\core-1.0.0\AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:7:9-43
@@ -26,8 +26,8 @@
 18        android:supportsRtl="true"
 18-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:11:9-40
+20        android:theme="@android:style/Theme.NoTitleBar" >
+20-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:11:9-56
 21        <activity android:name="com.example.wisatanusantara.splash_screen" >
 21-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:12:9-18:20
 21-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:12:19-48
@@ -48,16 +48,9 @@
 29        <activity android:name="com.example.wisatanusantara.main" />
 29-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:20:9-42
 29-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:20:19-39
-30        <activity android:name="com.example.wisatanusantara.Wisata" />
-30-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:21:9-43
-30-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:21:19-41
-31
-32        <meta-data
-32-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:23:9-25:57
-33            android:name="preloaded_fonts"
-33-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:24:13-43
-34            android:resource="@array/preloaded_fonts" />
-34-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:25:13-54
-35    </application>
-36
-37</manifest>
+30        <activity android:name="com.example.wisatanusantara.agrowisata" />
+30-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:21:9-47
+30-->C:\Users\Novita\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:21:19-45
+31    </application>
+32
+33</manifest>

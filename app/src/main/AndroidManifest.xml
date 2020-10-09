@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_wisnu"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_wisnu"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.NoTitleBar">
         <activity android:name=".splash_screen">
@@ -18,11 +18,12 @@
         </activity>
         <activity android:name=".welcome" />
         <activity android:name=".main" />
-        <activity android:name=".Wisata"/>
+        <activity android:name=".agrowisata"/>
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
+
 
 </manifest>
