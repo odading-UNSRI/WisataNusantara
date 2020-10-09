@@ -24,9 +24,8 @@ int animator mtrl_fab_hide_motion_spec 0x7f020006
 int animator mtrl_fab_show_motion_spec 0x7f020007
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f020008
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f020009
-int array sports_images 0x7f030000
-int array wisata_info 0x7f030001
-int array wisata_titles 0x7f030002
+int array agrowisata_images 0x7f030000
+int array wisata_titles 0x7f030001
 int attr actionBarDivider 0x7f040000
 int attr actionBarItemBackground 0x7f040001
 int attr actionBarPopupTheme 0x7f040002
@@ -1268,11 +1267,10 @@ int id useLogo 0x7f0900da
 int id view_offset_helper 0x7f0900db
 int id visible 0x7f0900dc
 int id welcome_word 0x7f0900dd
-int id wisataDetailTitle 0x7f0900de
-int id wisataImage 0x7f0900df
-int id withText 0x7f0900e0
-int id wrap 0x7f0900e1
-int id wrap_content 0x7f0900e2
+int id wisataImage 0x7f0900de
+int id withText 0x7f0900df
+int id wrap 0x7f0900e0
+int id wrap_content 0x7f0900e1
 int integer abc_config_activityDefaultDur 0x7f0a0000
 int integer abc_config_activityShortDur 0x7f0a0001
 int integer app_bar_elevation_anim_duration 0x7f0a0002
@@ -1919,8 +1917,7 @@ int style Widget_MaterialComponents_TextInputLayout_OutlinedBox 0x7f0f01ec
 int style Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense 0x7f0f01ed
 int style Widget_MaterialComponents_Toolbar 0x7f0f01ee
 int style Widget_Support_CoordinatorLayout 0x7f0f01ef
-int style wisataDetailText 0x7f0f01f0
-int style wisataTitle 0x7f0f01f1
+int style wisataTitle 0x7f0f01f0
 int[] styleable ActionBar { 0x7f040031, 0x7f040032, 0x7f040033, 0x7f040097, 0x7f040098, 0x7f040099, 0x7f04009a, 0x7f04009b, 0x7f04009c, 0x7f0400aa, 0x7f0400af, 0x7f0400b0, 0x7f0400bb, 0x7f0400e6, 0x7f0400eb, 0x7f0400f0, 0x7f0400f1, 0x7f0400f3, 0x7f0400fd, 0x7f040107, 0x7f04015c, 0x7f040168, 0x7f040179, 0x7f04017d, 0x7f04017e, 0x7f0401ac, 0x7f0401af, 0x7f0401f4, 0x7f0401fe }
 int styleable ActionBar_background 0
 int styleable ActionBar_backgroundSplit 1
