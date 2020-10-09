@@ -40,25 +40,20 @@ public class agrowisata extends AppCompatActivity {
     }
 
     private void initializeData() {
-        TypedArray sportsImageResources =
-                getResources().obtainTypedArray(R.array.sports_images);
+        TypedArray agrowisataImageResources =
+                getResources().obtainTypedArray(R.array.agrowisata_images);
         // Get the resources from the XML file.
-        String[] sportsList = getResources()
+        String[] agrowisataList = getResources()
                 .getStringArray(R.array.wisata_titles);
-        String[] sportsInfo = getResources()
-                .getStringArray(R.array.wisata_info);
 
-        // Clear the existing data (to avoid duplication).
         mWisataData.clear();
 
-        // Create the ArrayList of Sports objects with titles and
-        // information about each sport.
-        for(int i=0;i<sportsList.length;i++){
-            mWisataData.add(new Wisata(sportsList[i],sportsInfo[i],
-                    sportsImageResources.getResourceId(i,0)));
+        for(int i=0;i<agrowisataList.length;i++){
+            mWisataData.add(new Wisata(agrowisataList[i],
+                    agrowisataImageResources.getResourceId(i,0)));
         }
 
-        sportsImageResources.recycle();
+        agrowisataImageResources.recycle();
         // Notify the adapter of the change.
         mAdapter.notifyDataSetChanged();
     }
