@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:text="@string/count_loading"
         android:textColor="#FFFFFF"
-        android:textSize="25sp"
+        android:textSize="30sp"
         android:id="@+id/text_view"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/progress_bar"/>
