@@ -14,20 +14,14 @@
     <string name="title_placeholder">TITLE</string>
     <string name="news_placeholder">DESC</string>
     <string name="todo">TO DO</string>
+    <string name="count_loading">0 %</string>
     <string-array name="wisata_titles">
         <item>Giri Tirta Kahuripan</item>
         <item>Kampung Sadang</item>
         <item>Kampung Kahuripan</item>
         <item>Saung Manglid</item>
     </string-array>
-
-    <string-array name="wisata_info">
-        <item>Ini adalah Giri Tirta Kahuripan</item>
-        <item>Ini adalah Kampung Sadang</item>
-        <item>Ini adalah Kampung Kahuripan</item>
-        <item>Ini adalah Saung Manglid</item>
-    </string-array>
-    <array name="sports_images">
+    <array name="agrowisata_images">
         <item>@drawable/giri_tirta_kahuripan</item>
         <item>@drawable/kampung_kahuripan</item>
         <item>@drawable/kampung_sadang</item>

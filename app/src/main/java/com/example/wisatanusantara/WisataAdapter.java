@@ -2,6 +2,8 @@ package com.example.wisatanusantara;
 
 import android.content.Context;
 import android.content.Intent;
+
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,12 +20,6 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
     private ArrayList<Wisata> mWisataData;
     private Context mContext;
 
-    /**
-     * Constructor that passes in the sports data and the context.
-     *
-     * @param wisataData ArrayList containing the sports data.
-     * @param context Context of the application.
-     */
     WisataAdapter(Context context, ArrayList<Wisata> wisataData) {
         this.mWisataData = wisataData;
         this.mContext = context;
@@ -38,6 +34,7 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
      * @param viewType The view type of the new View.
      * @return The newly created ViewHolder.
      */
+    @NonNull
     @Override
     public ViewHolder onCreateViewHolder(
             ViewGroup parent, int viewType) {
@@ -79,7 +76,6 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
 
         // Member Variables for the TextViews
         private TextView mTitleText;
-        private TextView mInfoText;
         private ImageView mWisataImage;
 
         /**
@@ -92,7 +88,6 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
 
             //Initialize the views
             mTitleText = itemView.findViewById(R.id.title);
-            mInfoText = itemView.findViewById(R.id.wisataDetailTitle);
             mWisataImage = itemView.findViewById(R.id.wisataImage);
 
             // Set the OnClickListener to the entire view.
@@ -102,7 +97,6 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
         void bindTo(Wisata currentWisata){
             // Populate the textviews with data.
             mTitleText.setText(currentWisata.getTitle());
-            mInfoText.setText(currentWisata.getInfo());
             Glide.with(mContext).load(currentWisata.getImageResource()).into(mWisataImage);
 
         }
