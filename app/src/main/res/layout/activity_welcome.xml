@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_welcome"
+    android:background="@drawable/bg_welcome_new"
     tools:context=".welcome">
 
     <Button
         android:id="@+id/btn_mulai"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_blue_dark"
-        android:text="Lihat Wisata"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/lihat_wisata"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent" />
 
