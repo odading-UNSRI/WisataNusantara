@@ -7,7 +7,8 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".agrowisata" >
+    tools:context=".agrowisata"
+    android:background="#fff">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
