@@ -16,16 +16,4 @@
     <string name="todo">TO DO</string>
     <string name="count_loading">0 %</string>
     <string name="lihat_wisata">Lihat Wisata</string>
-    <string-array name="wisata_titles">
-        <item>Giri Tirta Kahuripan</item>
-        <item>Kampung Sadang</item>
-        <item>Kampung Kahuripan</item>
-        <item>Saung Manglid</item>
-    </string-array>
-    <array name="agrowisata_images">
-        <item>@drawable/giri_tirta_kahuripan</item>
-        <item>@drawable/kampung_kahuripan</item>
-        <item>@drawable/kampung_sadang</item>
-        <item>@drawable/saung_manglid</item>
-    </array>
 </resources>
