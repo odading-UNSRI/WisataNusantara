@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    app:cardCornerRadius="10dp"
-    android:orientation="vertical">
+    app:cardCornerRadius="10dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,7 +15,9 @@
             android:id="@+id/wisataImage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:adjustViewBounds="true" />
+            android:src="@drawable/kampung_kahuripan"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/category_agrowisata"/>
 
         <TextView
             android:id="@+id/title"
@@ -25,7 +27,6 @@
             android:layout_alignBottom="@id/wisataImage"
             android:padding="8dp"
             android:text="@string/title_placeholder"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"
             android:background="@drawable/gradient"/>
 
     </RelativeLayout>
