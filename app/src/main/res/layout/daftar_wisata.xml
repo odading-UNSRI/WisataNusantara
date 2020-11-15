@@ -9,7 +9,7 @@
     android:paddingTop="16dp"
     android:orientation="vertical"
     tools:context=".agrowisata"
-    android:background="@android:color/white">
+    android:background="@drawable/background1">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
