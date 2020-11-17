@@ -22,7 +22,7 @@ public class welcome extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finishAffinity();
-                startActivity(new Intent(getApplicationContext(), agrowisata.class));
+                startActivity(new Intent(getApplicationContext(), main.class));
             }
         });
 

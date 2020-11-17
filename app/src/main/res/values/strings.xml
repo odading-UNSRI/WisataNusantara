@@ -12,7 +12,7 @@
     <string name="category_religi">Religi</string>
     <string name="category_taman">Taman</string>
     <string name="title_placeholder">TITLE</string>
-    <string name="news_placeholder">DESC</string>
+    <string name="category_placeholder">CATEGORY</string>
     <string name="todo">TO DO</string>
     <string name="count_loading">0 %</string>
     <string name="lihat_wisata">Lihat Wisata</string>
