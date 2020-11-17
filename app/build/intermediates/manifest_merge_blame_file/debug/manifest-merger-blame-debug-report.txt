@@ -10,47 +10,53 @@
 9        android:targetSdkVersion="30" />
 9-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:5:5-22:19
-12        android:allowBackup="true"
-12-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6d11613c3b6a00a9ea456b5609ec43f7\core-1.0.0\AndroidManifest.xml:22:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.wisatanusantara.splash_screen" >
-21-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:12:19-48
-22            <intent-filter>
-22-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:14:17-69
-23-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:16:17-77
-25-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28        <activity android:name="com.example.wisatanusantara.welcome" />
-28-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:19:9-45
-28-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:19:19-42
-29        <activity android:name="com.example.wisatanusantara.main" />
-29-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:20:9-42
-29-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:20:19-39
-30        <activity android:name="com.example.wisatanusantara.agrowisata" />
-30-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:21:9-47
-30-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:21:19-45
-31    </application>
-32
-33</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:7:5-25:19
+14        android:allowBackup="true"
+14-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:fullBackupContent="true"
+17-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:9:9-41
+18        android:icon="@mipmap/ic_wisnu"
+18-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:10:9-40
+19        android:label="@string/app_name"
+19-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_wisnu"
+20-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:12:9-45
+21        android:supportsRtl="true"
+21-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.AppCompat.NoActionBar" >
+23-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:14:9-59
+24        <activity android:name="com.example.wisatanusantara.splash_screen" >
+24-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:15:9-21:20
+24-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:15:19-48
+25            <intent-filter>
+25-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:17:17-69
+26-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:19:17-77
+28-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.example.wisatanusantara.welcome" />
+31-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:22:9-45
+31-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:22:19-42
+32        <activity android:name="com.example.wisatanusantara.main" />
+32-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:23:9-42
+32-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:23:19-39
+33        <activity android:name="com.example.wisatanusantara.DetailWisata" />
+33-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:24:9-59
+33-->C:\Users\ASUS\AndroidStudioProjects\WisataNusantara\app\src\main\AndroidManifest.xml:24:19-47
+34    </application>
+35
+36</manifest>
