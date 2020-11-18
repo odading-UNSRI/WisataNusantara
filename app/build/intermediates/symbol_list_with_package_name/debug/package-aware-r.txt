@@ -1688,6 +1688,7 @@ id buttonPanel
 id cache_measures
 id cancel_action
 id cancel_button
+id card
 id cardClick
 id center
 id center_horizontal
