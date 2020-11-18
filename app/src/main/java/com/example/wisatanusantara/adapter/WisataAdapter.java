@@ -43,6 +43,7 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
             public void onClick(View view) {
                 Intent intent = new Intent(mContext, DetailWisata.class);
                 intent.putExtra("nama", mWisataData.get(position).getNama());
+                intent.putExtra("kategori", mWisataData.get(position).getKategori());
                 intent.putExtra("gambarUrl", mWisataData.get(position).getGambarUrl());
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mContext.startActivity(intent);
