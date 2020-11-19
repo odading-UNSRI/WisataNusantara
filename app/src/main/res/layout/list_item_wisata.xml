@@ -3,15 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardClick"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="230dp"
         android:layout_margin="8dp"
-        app:cardElevation="8dp"
-        app:cardCornerRadius="10dp">
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -21,10 +22,10 @@
                 android:id="@+id/wisataImage"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:src="@drawable/kampung_kahuripan"
-                android:scaleType="fitXY"
                 android:adjustViewBounds="true"
-                android:contentDescription="@string/category_agrowisata"/>
+                android:contentDescription="@string/category_agrowisata"
+                android:scaleType="fitXY"
+                android:src="@drawable/kampung_kahuripan" />
 
             <TextView
                 android:id="@+id/wisataTitle"
@@ -32,10 +33,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@id/wisataImage"
+                android:background="@drawable/gradient"
                 android:padding="8dp"
                 android:text="@string/title_placeholder"
-                android:textColor="#FFFFFF"
-                android:background="@drawable/gradient"/>
+                android:textColor="#FFFFFF" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>
