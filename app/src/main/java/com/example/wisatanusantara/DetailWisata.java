@@ -20,7 +20,7 @@ public class DetailWisata extends AppCompatActivity {
         ImageView mWisataImage = findViewById(R.id.wisataImage);
 
         mTitleText.setText(getIntent().getStringExtra("nama"));
-        mCategoryText.setText(getIntent().getStringExtra("kategori"));
+        mCategoryText.setText("Kategori Wisata: "+ getIntent().getStringExtra( "kategori"));
         Glide.with(getApplicationContext()).load(getIntent().getStringExtra("gambarUrl")).error(R.mipmap.ic_wisnu).override(512, 512).into(mWisataImage);
     }
 }

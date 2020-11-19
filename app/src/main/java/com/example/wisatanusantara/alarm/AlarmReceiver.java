@@ -35,7 +35,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder
                 (context, PRIMARY_CHANNEL_ID)
-                .setSmallIcon(R.drawable.ic_wisnu)
+                .setSmallIcon(R.mipmap.ic_wisnu)
                 .setContentTitle("HAI!")
                 .setContentText("Ayuk jalan-jalan bareng Wisnu")
                 .setContentIntent(contentPendingIntent)
