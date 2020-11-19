@@ -21,6 +21,21 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name="com.example.wisatanusantara.alarm.AlarmActivity"
+            android:label="@string/action_alarm"
+            android:parentActivityName="com.example.wisatanusantara.main"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main" />
+        </activity>
+
+        <receiver
+            android:name="com.example.wisatanusantara.alarm.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
         <activity android:name="com.example.wisatanusantara.splash_screen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

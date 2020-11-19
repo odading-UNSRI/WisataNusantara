@@ -12,6 +12,21 @@
         android:roundIcon="@mipmap/ic_wisnu"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".alarm.AlarmActivity"
+            android:parentActivityName=".main"
+            android:label="@string/action_alarm"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main" />
+        </activity>
+
+        <receiver
+            android:name=".alarm.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+
         <activity android:name=".splash_screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +36,8 @@
         </activity>
         <activity android:name=".welcome" />
         <activity android:name=".main" />
-        <activity android:name=".DetailWisata"></activity>
+        <activity android:name=".DetailWisata" />
+
     </application>
 
 </manifest>
