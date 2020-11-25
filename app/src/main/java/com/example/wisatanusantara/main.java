@@ -50,16 +50,6 @@ public class main extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        toolbar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(main.this, AlarmActivity.class);
-                startActivity(intent);
-
-            }
-        });
     }
 
     private void getData() {
@@ -84,7 +74,7 @@ public class main extends AppCompatActivity {
 
     private void initView() {
         recyclerView = findViewById(R.id.recyclerView);
-        mAlarm= (Text) findViewById(R.id.action_alarm);
+        mAlarm= findViewById(R.id.action_alarm);
     }
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
