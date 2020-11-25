@@ -9,18 +9,18 @@
 
     <Button
         android:id="@+id/button_timepicker"
-        android:layout_width="wrap_content"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/open_time_picker" />
+        android:layout_centerInParent="true"
+        android:background="@mipmap/set_alarm" />
+
     <Button
         android:id="@+id/button_cancel"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/button_timepicker"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
-        android:text="@string/cancel_alarm" />
+        android:background="@mipmap/cancel_alarm" />
 
 </RelativeLayout>
