@@ -1,6 +1,7 @@
 package com.example.wisatanusantara;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
@@ -17,6 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.wisatanusantara.adapter.WisataAdapter;
 import com.example.wisatanusantara.alarm.AlarmActivity;
+import com.example.wisatanusantara.db.DBWisata;
 import com.example.wisatanusantara.model.RoodPariwisataModel;
 import com.example.wisatanusantara.model.WisataItem;
 import com.example.wisatanusantara.rest.ApiConfig;
@@ -39,6 +41,9 @@ public class main extends AppCompatActivity {
     private ArrayList<WisataItem> wisataItems;
     private WisataAdapter wisataAdapter;
     private Text mAlarm;
+    private SharedPreferences mPreferences;
+    private String sharedPrefFile = "com.example.wisatanusantara";
+    public static DBWisata db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +55,10 @@ public class main extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        mPreferences = getSharedPreferences(sharedPrefFile,MODE_PRIVATE);
+
+        db = DBWisata.getInstance(main.this);
     }
 
     private void getData() {
@@ -93,5 +102,13 @@ public class main extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        SharedPreferences.Editor preferencesEditor = mPreferences.edit();
+        preferencesEditor.apply();
     }
 }
